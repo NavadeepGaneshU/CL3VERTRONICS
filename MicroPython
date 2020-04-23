@@ -1,12 +1,14 @@
 # Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
-
 #Turn LED ON
+
 import machine
 pin = machine.Pin(2, machine.Pin.OUT)
 pin.on()
 
 ----------------------------------------------------------------------------------------------------
+# Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #Blink with Delay
+
 import machine
 import time
 pin = machine.Pin(2, machine.Pin.OUT)
@@ -17,7 +19,9 @@ while True:
     time.sleep(0.5)
     
 ------------------------------------------------------------------------------------------------------
+# Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #Blink custom number of times
+
 import machine
 import time
 pin = machine.Pin(2, machine.Pin.OUT)
@@ -29,7 +33,9 @@ for i in range(n):
     time.sleep(0.5)
     
 ---------------------------------------------------------------------------------------------------
+# Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #PWM, LED fade
+
 from machine import Pin, PWM
 from time import sleep
 frequency = 5000
@@ -38,3 +44,8 @@ while True:
   for duty_cycle in range(0, 1024):
     led.duty(duty_cycle)
     sleep(0.005)
+
+---------------------------------------------------------------------------------------------------
+# Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
+#Read Temperature Sensor
+
