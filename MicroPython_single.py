@@ -68,7 +68,7 @@ while True:
 
 -------------------------------------BLOG POST #4-----------------------------------------------
 # Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
-#DHT-11 based simple Alert System.
+#DHT-11 based simple temperature alert system.
 
 import machine
 pin1 = machine.Pin(5, machine.Pin.OUT)
