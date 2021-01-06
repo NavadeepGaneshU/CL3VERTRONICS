@@ -1,4 +1,4 @@
-------------------------------------------BLOG POST #1------------------------------------------------------------
+#------------------------------------------BLOG POST #1------------------------------------------------------------
 # Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #Turn LED on
 
@@ -9,7 +9,7 @@ import machine
 pin = machine.Pin(2, machine.Pin.OUT)
 pin.on()
 
-------------------------------------------BLOG POST #1------------------------------------------------------------
+#------------------------------------------BLOG POST #1------------------------------------------------------------
 # Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #Blink with Delay
 
@@ -22,7 +22,7 @@ while True:
     pin.off()
     time.sleep(0.5)
     
------------------------------------------BLOG POST #2------------------------------------------------------
+#-----------------------------------------BLOG POST #2------------------------------------------------------
 # Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #Blink custom number of times
 
@@ -36,7 +36,7 @@ for i in range(n):
     pin.on()
     time.sleep(0.5)
     
------------------------------------------BLOG POST #3----------------------------------------------------
+#-----------------------------------------BLOG POST #3----------------------------------------------------
 # Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #PWM, LED fade
 
@@ -49,7 +49,7 @@ while True:
     led.duty(duty_cycle)
     sleep(0.005)
 
---------------------------------------BLOG POST #4--------------------------------------------------
+#--------------------------------------BLOG POST #4--------------------------------------------------
 # Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #Read Temperature Sensor
 
@@ -66,7 +66,7 @@ while True:
   except OSError as e:
     print('Failed to read sensor.')
 
--------------------------------------BLOG POST #4-----------------------------------------------
+#-------------------------------------BLOG POST #4-----------------------------------------------
 # Hello world, The below are MicroPython codes which are tested on ESP 8266 V.3. All details are mentioned at clevertronics.blogspot.com
 #DHT-11 based simple temperature alert system.
 
